@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120">
+  <defs>
+    <style>
+      .logo-color { fill: #1B2A6B; }
+      .logo-stroke { stroke: #1B2A6B; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+    </style>
+  </defs>
+
+  <!-- Large G — serif style -->
+  <text x="2" y="102" font-family="Georgia, 'Times New Roman', serif" font-weight="bold" font-size="118" class="logo-color" letter-spacing="-2">G</text>
+
+  <!-- House roofline structure -->
+  <g>
+    <!-- Main roof triangle -->
+    <polyline points="90,50 175,8 260,50" class="logo-stroke"/>
+    <!-- Left eave overhang -->
+    <line x1="84" y1="50" x2="96" y2="50" class="logo-stroke"/>
+    <!-- Right eave overhang -->
+    <line x1="254" y1="50" x2="266" y2="50" class="logo-stroke"/>
+
+    <!-- Left gable/dormer window — filled -->
+    <polygon points="120,50 140,34 160,50" class="logo-color"/>
+    <!-- Right gable/dormer window — filled -->
+    <polygon points="190,50 210,34 230,50" class="logo-color"/>
+
+    <!-- Chimney — filled rectangle -->
+    <rect x="232" y="16" width="12" height="20" class="logo-color"/>
+  </g>
+
+  <!-- De Leon text — mixed case, bold -->
+  <text x="95" y="78" font-family="'Arial Black', 'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="36" class="logo-color" letter-spacing="0.5">De Leon</text>
+
+  <!-- CONSTRUCTION INC. — all caps, smaller, wider spacing -->
+  <text x="95" y="100" font-family="Arial, Helvetica, sans-serif" font-weight="700" font-size="19" class="logo-color" letter-spacing="2.5">CONSTRUCTION INC.</text>
+</svg>
